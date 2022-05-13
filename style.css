@@ -30,7 +30,14 @@ img {
         display: none;
     }
 }
+@keyframes Animacao{
+    0% {opacity: 0; margin-right:-500px}
+    100%{opacity: 1;margin-right:0;margin-top:0}
+}
 .titulo{
+    animation-name: Animacao;
+    animation-duration: 3.5s;
     text-align: center;
     font-size: 60px;
 }
+.red-font{color:red;display: inline-block;}
