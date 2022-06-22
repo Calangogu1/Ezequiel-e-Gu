@@ -4,8 +4,27 @@
         <title>Drugstore</title>
     </head>
     <body> 
-        <div class="usuario"></div>
-        <div class="name">Seu perfil</div>
-        <input type="text">
+        <div class="formConteiner">
+            <div class="titulo">Seu Perfil </div>
+            <div class="usuario"></div>
+            <div class='campo'>
+                <label for='apelido'>Escolha seu apelido:</label>
+                <input class="entrada" name='apelido' placeholder="Coloque seu apelido aqui"></input>
+             </div>
+             <div class='campo1'>
+                <label for='data'>Coloque sua data de nascimento:</label>
+                <input class="data" type="date" name="date" />
+              </div>
+              <div class='campo2'>
+                <label for='radio'>Seu sexo:</label>
+                <label for='radio'>Feminino</label>
+                <label for='radio'>Masculino</label>
+                <input class="genero" type="radio"  name="radio" />
+              </div>
+              <div class='campo3'>
+                <label for='text'>Seu cidade:</label>
+                <input class="cidade" type="text" name="local" />
+              </div>
+        </div>
 </body>
 </html>
