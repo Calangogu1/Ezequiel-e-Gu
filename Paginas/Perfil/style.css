@@ -1,3 +1,9 @@
+body {
+    background-image:linear-gradient(to top, rgb(184, 247, 247), rgb(133, 244, 248));
+    /*background-image: url(https://media.tenor.com/images/35c8b67001ab6cb1b6278cd1e29651f2/tenor.gif);
+    background-repeat:no-repeat ; */
+}
+
 
 .usuario {
    width:100px;
@@ -9,16 +15,18 @@
 }
 
   .entrada {
-    border: 3px solid #000;
+    border: 2px solid rgb(87, 85, 85);
     width:300px;
     height:30px;
-    font-size:18px;
+    font-size:13px;
+    font-style: italic;
     display: block;
 } 
 
 .titulo {
     text-align:center;
-    font-size:30px
+    font-size:30px;
+    color: aliceblue;
 }
 
 .formContainer {
@@ -26,11 +34,15 @@
     flex-direction: column;
     width:600px;
     max-width: 100%;
-    border: 3px solid red;
+    border: 3px solid rgb(36, 59, 109);
+    border-radius:15px;
     position: absolute;
     top:0px;
     left: 50%;
     transform:translate(-50%,0);
+    font-family:Arial,sans-serif;
+    background: rgba(23, 116, 133, 0.8);
+    
 }
 
 
@@ -40,7 +52,21 @@
 }
 
 .campo {
- margin-bottom:100px;
+ margin-bottom:75px;
+ color: aliceblue;
+}
+
+.save {
+    background-color: dodgerblue;
+    font-size: 15px;
+    width: 125px;
+    height:50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(255, 255, 255);;
+    border:none;
+    border-radius:15px;
 }
 
 
