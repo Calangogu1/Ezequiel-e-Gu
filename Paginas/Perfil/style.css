@@ -1,7 +1,16 @@
 .gifs {
+     background-image: url(https://media.tenor.com/images/35c8b67001ab6cb1b6278cd1e29651f2/tenor.gif);
+    background-repeat:no-repeat ;  
+    width:100px;
+    height:100px;
+    position:fixed;
+    top: 50px;
+    left: 75px;
+    background-size:contain;
+}
+
+body {
     background-image:linear-gradient(to top, rgb(184, 247, 247), rgb(133, 244, 248));
-    background-image: url(https://media.tenor.com/images/35c8b67001ab6cb1b6278cd1e29651f2/tenor.gif);
-    background-repeat:no-repeat ; 
 }
 
 
