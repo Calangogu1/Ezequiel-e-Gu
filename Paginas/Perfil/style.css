@@ -1,7 +1,7 @@
-body {
+.gifs {
     background-image:linear-gradient(to top, rgb(184, 247, 247), rgb(133, 244, 248));
-    /*background-image: url(https://media.tenor.com/images/35c8b67001ab6cb1b6278cd1e29651f2/tenor.gif);
-    background-repeat:no-repeat ; */
+    background-image: url(https://media.tenor.com/images/35c8b67001ab6cb1b6278cd1e29651f2/tenor.gif);
+    background-repeat:no-repeat ; 
 }
 
 
@@ -42,7 +42,7 @@ body {
     transform:translate(-50%,0);
     font-family:Arial,sans-serif;
     background: rgba(23, 116, 133, 0.8);
-    
+    padding: 15px;
 }
 
 
