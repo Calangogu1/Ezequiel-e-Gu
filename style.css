@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Koulen', cursive;
+    font-family: Arial,sans-serif;
 }
 
 body {
@@ -17,7 +17,7 @@ header {
     min-height: 10px;
     text-align: center;
     z-index: -1;
-   background-image:linear-gradient(to right, #4B0082, #000080);
+    background-image:linear-gradient(to right, rgb(147, 248, 248), rgb(89, 238, 243));
 }
 
 header h1 {
@@ -82,7 +82,8 @@ margin-left: 3px; */
     animation-name: Animacao;
     animation-duration: 3.5s;
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
+    color: aliceblue;
 }
 .red-font{color:red;display: inline-block;}
 .letra-titulo{
