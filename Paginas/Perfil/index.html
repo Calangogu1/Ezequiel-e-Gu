@@ -2,10 +2,45 @@
     <head>
         <link rel="stylesheet" href="style.css">
         <title>Drugstore</title>
+        <script></script>
     </head>
     <body> 
-        <div class="usuario"></div>
-        <div class="name">Seu perfil</div>
-        <input type="text">
+      <div class="gifs">
+        <div class="gifUm"></div>
+      </div>
+        <div class="formContainer">
+            <div class="titulo">Seu Perfil </div>
+             <div class="fotoApelido">
+              <div class="usuario"></div>
+              <div class='campo'>
+                  <label for='apelido'>Como os guri te chama?</label>
+                  <input class="entrada" name='apelido' placeholder="Ex: Calango"></input>
+              </div>
+             </div>
+             <div class='campo'>
+                <label for='date'>Quando tu veio ao mundo?</label>
+                <input class="entrada" type="date" name="date" />
+              </div>
+              <div class='campo'>
+                <label >Seu sexo (g&ecirc;nero o safado):</label>
+                <input class="genero" type="radio"  name="sexo" >
+                 <label>Feminino</label>
+                </input>
+                <input class="genero" type="radio"  name="sexo" >
+                <label >Masculino</label>
+                </input>
+                <input class="genero" type="radio"  name="sexo" >
+                <label >Outros:</label>
+                </input>
+                
+              </div>
+              <div class='campo'>
+                <label for='local'>Tu mora a onde?</label>
+                <input class="entrada" type="text" name="local"  placeholder=" Ex: Florianópolis"/>
+              </div>
+              <div class='campo'>
+                <button class="save">Salvar</button>
+              </div>
+        </div>
 </body>
 </html>

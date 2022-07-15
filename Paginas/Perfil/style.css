@@ -1,20 +1,86 @@
+.gifs {
+
+}
+
+.gifUm {
+    background-image: url(https://media.tenor.com/images/35c8b67001ab6cb1b6278cd1e29651f2/tenor.gif);
+    background-repeat:no-repeat ; 
+    top: 50px;
+    left: 100px;   
+    position: fixed;
+    width: 100px;
+    height: 100px;  
+    background-size:contain; 
+}
+
+body {
+    background-image:linear-gradient(to top, rgb(184, 247, 247), rgb(133, 244, 248));
+}
+
 
 .usuario {
-   width:10px;
-   height:10px;
+   width:100px;
+   height:100px;
    background-image:url(https://icones.pro/wp-content/uploads/2021/02/icone-utilisateur-gris.png);
    background-repeat: no-repeat;
    background-size: cover;
    position: relative;
 }
 
-input {
-    border: 3px solid #000;
+  .entrada {
+    border: 2px solid rgb(87, 85, 85);
     width:300px;
     height:30px;
-    font-size:18px;
-    margin-left:25px;
-    margin-top:150px;
+    font-size:13px;
+    font-style: italic;
+    display: block;
+} 
+
+.titulo {
+    text-align:center;
+    font-size:50px;
+    color: aliceblue;
+    font-family:Arial,sans-serif;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    width:600px;
+    max-width: 100%;
+    border: 3px solid rgb(36, 59, 109);
+    border-radius:15px;
+    position: absolute;
+    top:0px;
+    left: 50%;
+    transform:translate(-50%,0);
+    font-family:'Koulen', cursive;
+    background: rgba(23, 116, 133, 0.8);
+    padding: 15px;
+}
+
+
+.fotoApelido {
+    display: flex;
+    flex-direction: row;
+}
+
+.campo {
+ margin-bottom:75px;
+ color: aliceblue;
+}
+
+.save {
+    background-color: dodgerblue;
+    font-size: 15px;
+    width: 125px;
+    height:50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(255, 255, 255);;
+    border:none;
+    border-radius:15px;
 }
 
 
